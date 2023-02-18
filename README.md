@@ -99,6 +99,10 @@ Power BI lets you easily connect to your data sources, visualize and discover wh
 
 - Publish Power BI dashboard in Azure synapse workspace.
 
+# Architecture Diagram
+![image](https://user-images.githubusercontent.com/83840568/219877941-ccd0dc4b-48f1-484a-b710-0cae228e271d.png)
+
+
 # Screenshots
 ## Creating Azure Resource Group, Azure Storage account and Azure Synapse workspace
 
