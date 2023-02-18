@@ -1,0 +1,37 @@
+{
+	"name": "athletes_gender_data",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [
+			{
+				"name": "Discipline",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Male",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Female",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TotalAthletes",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "AthletesGenderOlympics"
+		},
+		"sqlPool": {
+			"referenceName": "sqlpool",
+			"type": "SqlPoolReference"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

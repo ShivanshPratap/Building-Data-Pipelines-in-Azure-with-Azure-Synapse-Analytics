@@ -1,0 +1,17 @@
+{
+	"name": "table_creation",
+	"properties": {
+		"content": {
+			"query": "/******Object:  Table [dbo].[AthletesOlympics]    ******/\nSET ANSI_NULLS ON\nGO\nSET QUOTED_IDENTIFIER ON\nGO\nCREATE TABLE [dbo].[AthletesOlympics](\n    [PersonName] [nvarchar](100) NULL,\n    [Country] [nvarchar](100) NULL,\n    [Discipline] [nvarchar](100) NULL\n    )\nGO\n\n\n/****** Object:  Table [dbo].[CoachesOlympics]   ******/\nSET ANSI_NULLS ON\nGO\nSET QUOTED_IDENTIFIER ON\nGO\nCREATE TABLE [dbo].[CoachesOlympics](\n    [CoachName] [nvarchar](100) NULL,\n    [Country] [nvarchar](100) NULL,\n    [Discipline] [nvarchar](100) NULL,\n    [Event] [nvarchar](50) NULL\n    )\nGO\n\n/****** Object:  Table [dbo].[AthletesGenderOlympics]   ******/\nSET ANSI_NULLS ON\nGO\nSET QUOTED_IDENTIFIER ON\nGO\nCREATE TABLE [dbo].[AthletesGenderOlympics](\n    [Discipline] [nvarchar](100) NULL,\n    [Male] [int] NULL,\n    [Female] [int] NULL,\n    [TotalAthletes] [int] NULL\n    )\nGO\n\n/****** Object:  Table [dbo].[CountryMedalsOlympics]   ******/\nSET ANSI_NULLS ON\nGO\nSET QUOTED_IDENTIFIER ON\nGO\nCREATE TABLE [dbo].[CountryMedalsOlympics](\n    [RankId] [int] NULL,\n    [Country] [nvarchar](100) NULL,\n    [Gold] [int] NULL,\n    [Silver] [int] NULL,\n    [Bronze] [int] NULL,\n    [Total] [int] NULL,\n    [RankByTotal] [int] NULL\n    ) \nGO\n\n/****** Object:  Table [dbo].[TeamOlympics]   ******/\nSET ANSI_NULLS ON\nGO\nSET QUOTED_IDENTIFIER ON\nGO\nCREATE TABLE [dbo].[TeamOlympics](\n    [TeamName] [nvarchar](100) NULL,\n    [Country] [nvarchar](100) NULL,\n    [Discipline] [nvarchar](100) NULL,\n    [Event] [nvarchar](50) NULL\n    )\nGO\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "sqlpool",
+				"poolName": "sqlpool"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

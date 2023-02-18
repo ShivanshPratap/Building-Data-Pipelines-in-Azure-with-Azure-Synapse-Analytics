@@ -1,0 +1,41 @@
+{
+	"name": "athletes_gender",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "olympic-ws-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "EntriesGender.csv",
+				"fileSystem": "sourcefile"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Discipline",
+				"type": "String"
+			},
+			{
+				"name": "Female",
+				"type": "String"
+			},
+			{
+				"name": "Male",
+				"type": "String"
+			},
+			{
+				"name": "Total",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

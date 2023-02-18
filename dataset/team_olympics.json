@@ -1,0 +1,34 @@
+{
+	"name": "team_olympics",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [
+			{
+				"name": "TeamName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Discipline",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Event",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TeamOlympics"
+		},
+		"sqlPool": {
+			"referenceName": "sqlpool",
+			"type": "SqlPoolReference"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

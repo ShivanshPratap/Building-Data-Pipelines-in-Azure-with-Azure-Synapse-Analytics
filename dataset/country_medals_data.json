@@ -1,0 +1,52 @@
+{
+	"name": "country_medals_data",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [
+			{
+				"name": "RankId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Gold",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Silver",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Bronze",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Total",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "RankByTotal",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "CountryMedalsOlympics"
+		},
+		"sqlPool": {
+			"referenceName": "sqlpool",
+			"type": "SqlPoolReference"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
