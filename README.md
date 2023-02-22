@@ -1,5 +1,5 @@
 # Building-Data-Pipelines-in-Azure-with-Azure-Synapse-Analytics
-In this Microsoft Azure Data Engineering Project, you will learn how to build a data pipeline using Azure Synapse Analytics, 
+In this Microsoft Azure Data Engineering Project, I've build a data pipeline using Azure Synapse Analytics, 
 Azure Storage and Azure Synapse SQL pool to perform data analysis on the 2021 Olympics dataset.
 
 # Business Overview:
@@ -11,7 +11,7 @@ Azure Storage and Azure Synapse SQL pool to perform data analysis on the 2021 Ol
 
 # Data Description:
 
-For this project, we will be working with the 2021 Olympics dataset.
+For this project, I've working with the 2021 Olympics dataset.
 This includes the information on more than 11,000 athletes competing in 47 sports for 743 Teams in the Tokyo Olympics in 2021. 
 This dataset includes information on the participating Teams, Athletes, Coaches, and Entries by gender.
 It includes their names, nationalities, sports they compete in, and name of coaches. The dataset contains 5 files as follows:
